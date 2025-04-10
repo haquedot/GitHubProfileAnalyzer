@@ -1,7 +1,7 @@
 import { GitHubUser } from "@/types/github"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Users, GitFork, Star } from "lucide-react"
+import { Users, GitFork } from "lucide-react"
 
 interface UserProfileProps {
   user: GitHubUser
